@@ -37,6 +37,7 @@ fun AnimateComposeColorAsState() {
 
     val cardBackground = animateColorAsState(targetValue = if (isActive) Orange else White)
 
+
     Box(modifier = Modifier.fillMaxSize()) {
         Card(
             modifier = Modifier
